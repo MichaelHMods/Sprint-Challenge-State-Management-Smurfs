@@ -1,4 +1,5 @@
-# Sprint Challenge: State Management - Smurfs
+ 1
+ # Sprint Challenge: State Management - Smurfs
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored the context API, the reducer pattern, and Redux. In your challenge for this Sprint, you will demonstrate proficiency by creating an application that uses ReactJS to consume live data retrieved from the World Wide Web.
 
@@ -22,9 +23,16 @@ In this challenge, you are to build a Smurfs village utilizing context or Redux 
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What problem does the context API help solve?
+- [x ] What problem does the context API help solve?
+  It helps us by not making us prop drill. 
 - [ ] In your own words, describe `actions`, `reducers` and the `store` and their role in Redux. What does each piece do? Why is the store known as a 'single source of truth' in a redux application?
+
+Actions define what we want to do in the reducer. Reducers hold state so you can use it throughout the whole app. Store is where we are physically saving state to be used throughout the app
+
 - [ ] What is the difference between Application state and Component state? When would be a good time to use one over the other?
+
+
+
 - [ ] Describe `redux-thunk`, what does it allow us to do? How does it change our `action-creators`?
 - [ ] What is your favorite state management system you've learned and this sprint? Please explain why!
 
